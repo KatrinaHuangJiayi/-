@@ -1,0 +1,140 @@
+/*the header of the register page*/
+.header{
+	padding-bottom: 10px;
+	border-bottom: 2px solid #c51929;
+	margin-top: 10px;
+}
+/*the register wrap*/
+.register_wrap{
+	border:1px solid #ccc;
+	margin: 20px auto;
+}
+/*the title wrap of the register*/
+.register_title{
+	height: 41px;
+	background-color: #ececec;
+	border-bottom: 1px solid #ccc;
+	padding: 0 10px;
+}
+/*the new register text*/
+.register_title h2{
+	float: left;
+	font-size: 18px;
+	color: #333;
+	font-weight:400;
+	line-height: 41px;
+}
+/*the registered user text area*/
+.register_title p{
+	float: right;
+	font-size: 14px;
+	color: #333;
+	line-height: 41px;
+}
+.register_title p a{
+	color: #c81623;
+}
+.register_form{
+	font-family: 'icomoon';
+	margin: 50px auto;
+}
+.register_form dl{
+	width: 600px;
+	overflow: hidden;
+    line-height: 35px;
+    margin: 10px auto;
+}
+.register_form dt,
+.register_form dd
+{
+	float: left;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.register_form dt{
+	width: 100px;
+	text-align: right;
+}
+/*the error prompt*/
+.register_form p{
+	display: inline-block;
+	color: #df3033;
+	font-size: 12px;
+}
+/*the error cross icon*/
+.register_form p em{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	color: #fff;
+	font-size: 8px;
+	background-color: #df3033;
+	border-radius: 12px;
+	text-align: center;
+	line-height: 20px;
+}
+.register_form input{
+	width: 240px;
+	height: 35px;
+	border: 1px solid #ccc;
+}
+/*Remove the up and down icons that appear when type="number" is entered in webkit*/ 
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+/*the security level of the password*/
+.register_form .security_psw{
+	display: block;
+	width: 165px;
+	font-size: 12px;
+	color: #b2b2b2;
+	font-weight: 400;
+	margin-left: 190px;
+}
+/*the size of the security level*/
+.security_psw i,
+.security_psw em,
+.security_psw span
+{
+	padding: 0 10px;
+	color: #fff;
+}
+/*the color of three different security leve*/ls
+.security_psw i{
+	background-color: #de1111;
+}
+.security_psw em{
+	background-color: #40b83f;
+}
+.security_psw span{
+	background-color: #f79100;
+}
+/*the size of the agreement area*/
+.agreement{
+	width: 225px;
+	height: 18px;
+	line-height: 18px;
+	margin: 42px 412px;
+}
+/*the checkbox of the agreement*/
+.agreement input{
+	width: 15px;
+	height: 15px;
+	vertical-align: bottom;
+}
+.agreement a{
+	color: #1ba1e6;
+}
+/*the submit button of the register*/
+.register_submit{
+	display: block;
+	width: 200px;
+	height: 35px;
+	background-color: #c81623;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	line-height: 35px;
+	margin: auto;
+}

@@ -1,0 +1,60 @@
+/*clear all elements margin and pandding*/
+* {
+	margin: 0;
+	padding: 0;
+}
+/*unify the background color and text color,unify the font ot the text in body*/
+body {
+	background-color: #fff;
+	color: #666;
+	font: 12px/1.5 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+}
+/*clear a underline,unify text color*/
+a {
+	text-decoration: none;
+	color: #666;
+}
+/*unify the hover color*/
+a:hover {
+	color: #e33333;
+	cursor:pointer;
+}
+/*clear italics*/
+i,
+em {
+	font-style: normal;
+}
+/*clear the bottom space of the image while align with text*/
+img {
+	vertical-align: middle;
+}
+/*clear the list dot*/
+li{
+	list-style: none;
+}
+
+/*keep button cursor pointer*/
+button {
+	cursor: pointer;
+}
+/*clear input and button outline,unify the font in text typed in*/
+input,
+button {
+	outline: none;
+	font-family: 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+}
+/*clear the float*/
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+.red{
+	color: #c81623;
+}

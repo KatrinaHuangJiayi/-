@@ -1,0 +1,164 @@
+/*the navigation area*/
+.nav{
+	height: 45px;
+	border-bottom: 2px solid #b1191a;
+	margin-top: 20px;
+}
+.nav li{
+	float: left;
+}
+.nav a:hover{
+	color: #e33333;
+	cursor:pointer;
+}
+/*the left navigation*/
+.list_left_nav{
+	float: left;
+}
+.list_left_nav li a{
+	display: inline-block;
+	font-size:16px;
+	color:#000;
+	font-weight: 700;
+	padding:12px 25px;
+}
+/*the right navigation */
+.list_right_nav {
+	float:left;
+}
+/*the items of the right catagory*/
+.list_right_nav li a {
+	float:left;
+	font-size:14px;
+	color:#666;
+	padding:12px 25px;
+	cursor:pointer;
+	font-family: 'icomoon';
+}
+.women_shoes{
+	overflow: hidden;
+}
+.women_shoes_hd{
+	height: 120px;
+	margin-bottom:25px;
+}
+.women_shoes_bd{
+	width: 1220px;
+}
+.women_shoes_bd li{
+	float: left;
+	width: 287px;
+	height: 459px;
+	border:1px solid rgba(177, 25, 26, 0);
+	margin-right: 14px;
+	margin-bottom: 10px;
+}
+.women_shoes_bd li:hover{
+	border:1px solid #b1191a;
+}
+.women_shoes_bd h4{
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0 10px;
+}
+.women_shoes_bd p{
+	font-size: 14px;
+	color: #a4a4a4;
+	margin:9px 0 7px 10px;
+
+}
+.women_shoes_bd p em{
+	font-size: 22px;
+	color: #e60012;
+}
+.women_shoes_bd .women_shoes_btn{
+	width: 287px;
+	height: 49px;
+	background-color: #b1191a;
+	font-size:20px;
+    color: #fff;
+    text-align: center;
+    line-height: 49px;
+}
+.women_shoes_btn a:hover{
+	color: #ed282e;
+}
+.women_shoes_btn a{
+	color: #fff;
+}
+.sale_number{
+	height: 29px;
+	margin-left:10px;s
+}
+.sale_number h5{
+	float: left;
+	font-size: 14px;
+	color: #666;
+}
+.sale_number .sale_bar{
+	float: left;
+	width: 131px;
+	height: 10px;
+	border:1px solid #ed282e;
+	border-radius: 5px;
+	margin: 6px 7px 0 7px;
+}
+.sale_bar .sale_bar_red{
+	width: 118px;
+	height: 10px;
+	background-color: #ed282e;
+}
+.sale_number span{
+	color: #e12228;
+	font-size: 16px;
+}
+/*the container of the page number area*/
+.page{
+	height: 40px;
+	margin: 40px 0 40px 280px;
+}
+.page_num,
+.page_chose{
+	float: left;
+	text-align: center;
+	line-height: 40px;
+}
+/*the size of each page number*/
+.page_num li{
+	float: left;
+	border:1px solid #ccc;
+	background-color: #f5f5f5;
+	margin-right:5px;
+}
+.page_num .page_num_selected,
+.page_num .dotted{
+    border:1px solid rgba(255,255,255,0);
+	background-color: #fff;
+}
+.page_num li a{
+	display: inline-block;
+	padding: 0 15px;
+}
+.page_chose em{
+	margin: 10px 0;
+}
+/*the page number input box*/
+.page_chose input{
+	height: 40px;
+	width: 50px;
+	border:1px solid #ccc;
+	text-align: center;
+	transition: all 0.3s;
+}
+.page_chose input:focus{
+	width: 88px;
+	border: 1px solid skyblue;
+}
+/*the page submit button*/
+.page_chose button{
+	height: 40px;
+	width: 50px;
+	border:1px solid #ccc;
+	background-color: #f5f5f5;
+	text-align: center;
+}

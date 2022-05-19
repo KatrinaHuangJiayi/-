@@ -1,0 +1,461 @@
+/*the focus ad area in the middle*/
+
+.main_ad {
+    position: relative;
+    float: left;
+    height: 455px;
+    width: 721px;
+    overflow: hidden;
+}
+
+.focusList {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500%;
+}
+
+.main_ad .focusList li {
+    float: left;
+}
+
+
+/*two left and right arrow on the ad picture*/
+
+.arrow_L,
+.arrow_R {
+    position: absolute;
+    top: 210px;
+    display: none;
+    width: 24px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, .3);
+    z-index: 99;
+}
+
+.arrow_L a,
+.arrow_R a {
+    display: block;
+    font-family: 'icomoon';
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.arrow_L {
+    left: 0;
+}
+
+.arrow_R {
+    right: 0;
+}
+
+
+/*the button swtiching the ad picture*/
+
+.main_ad_button {
+    position: absolute;
+    top: 435px;
+    display: none;
+    left: 50px;
+    z-index: 99;
+}
+
+.main_ad_button li {
+    float: left;
+    width: 7px;
+    height: 7px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.main_ad_button li:hover {
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.main_ad_current {
+    background-color: #fff;
+}
+
+
+/*the news area on the right*/
+
+.news {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+
+/*the news flash area*/
+
+.news_flash {
+    float: left;
+    height: 163px;
+    border: 1px solid #ebe9e9;
+}
+
+
+/*the title of the news*/
+
+.news_flash_dt {
+    height: 32px;
+    border-bottom: 1px solid #ebe9e9;
+    font-size: 14px;
+    color: #333;
+    line-height: 32px;
+}
+
+.news_flash_dt em {
+    float: left;
+    margin-left: 15px;
+}
+
+.news_flash_dt a {
+    float: right;
+    margin-right: 15px;
+    font-family: 'icomoon';
+    cursor: pointer;
+}
+
+
+/*the items of the news*/
+
+.news_flash_di {
+    height: 131px;
+    width: 248px;
+    font-size: 12px;
+    color: #666;
+    line-height: 23px;
+}
+
+.news_flash_di ul {
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 10px;
+    width: 220px;
+}
+
+.news_flash_di em {
+    font-weight: 700;
+}
+
+
+/*the tool icon area below the news*/
+
+.tools {
+    overflow: hidden;
+    float: left;
+    height: 208px;
+    width: 248px;
+    border: 1px solid #ebe9e9;
+    border-top: none;
+}
+
+.tool_container {
+    width: 252px;
+}
+
+.tool_container li a {
+    display: block;
+}
+
+
+/*each icon area*/
+
+.tool_container li {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    height: 70px;
+    width: 62px;
+    border-bottom: 1px solid #ebe9e9;
+    border-right: 1px solid #ebe9e9;
+}
+
+
+/*the icon logo*/
+
+.service_icon {
+    display: block;
+    height: 25px;
+    width: 23px;
+    background: url(../imges/icons.png) no-repeat;
+    margin: 10px auto;
+}
+
+.phone_bill {
+    background-position: -18px -16px;
+}
+
+.flight_ticket {
+    background-position: -81px -17px;
+}
+
+.movie {
+    background-position: -142px -17px;
+}
+
+
+/*the name of the icon below*/
+
+.tool_container li em {
+    display: block;
+    text-align: center;
+}
+
+
+/*the green sale icon*/
+
+.hot {
+    position: absolute;
+    right: 0;
+    height: 15px;
+    width: 12px;
+    background: url(../imges/jian.jpg) no-repeat;
+}
+
+
+/*the ad flash area*/
+
+.ad_flash {
+    float: left;
+    margin-top: 5px;
+    width: 250px;
+    height: 78px;
+}
+
+
+/*the recommend area*/
+
+.recommend {
+    height: 165px;
+    margin-top: 12px;
+    margin-bottom: 22px;
+}
+
+
+/*the title of the recommend section*/
+
+.recommend_hd {
+    float: left;
+    width: 206px;
+    height: 165px;
+    background-color: #5c5251;
+}
+
+.recommend_hd_logo {
+    height: 57px;
+    width: 57px;
+    margin: auto;
+    margin-top: 31px;
+    margin-bottom: 5px;
+}
+
+.recommend_hd_tltle {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+/*the content in the recommend section*/
+
+.recommend_bd {
+    overflow: hidden;
+    float: left;
+    width: 994px;
+    height: 165px;
+    background-color: #ebebeb;
+}
+
+.recommend_bd ul {
+    width: 998px;
+    margin: 9px 0;
+}
+
+.recommend_bd li {
+    float: left;
+    height: 147px;
+    width: 248px;
+    border-right: 1px solid #dddddd;
+}
+
+
+/*the container of household appliances section*/
+
+.household_appliances {
+    height: 390px;
+    margin-bottom: 22px;
+}
+
+
+/*make the transition of the imges*/
+
+.household_appliances img {
+    transition: margin-left .2s ease 0s;
+}
+
+.household_appliances img:hover {
+    margin-left: 8px;
+}
+
+
+/*the head of the household section*/
+
+.household_title {
+    height: 29px;
+    border-bottom: 2px solid #c81623;
+}
+
+.household_title h1 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+}
+
+.household_hotlinks {
+    float: right;
+}
+
+.household_hotlinks a {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+
+/*the first column picture link of the household*/
+
+.w209 {
+    float: left;
+    overflow: hidden;
+    width: 209px;
+    height: 359px;
+    background-color: #f9f9f9;
+}
+
+
+/*the hot keywords links on the first column of the household*/
+
+.appliances_keywords {
+    width: 209px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+.appliances_keywords li {
+    float: left;
+    width: 85px;
+    height: 32px;
+    color: #ccc;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    margin-right: 15px;
+    line-height: 32px;
+    text-align: center;
+}
+
+
+/*the picture links on the first column of the household*/
+
+.w209 img {
+    margin-left: 10px;
+}
+
+
+/*the second column picture link on the household*/
+
+.w329 {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 329px;
+}
+
+
+/*the picture switch on the picture*/
+
+.w329_swtich {
+    position: absolute;
+    top: 335px;
+    left: 45%;
+}
+
+
+/*the dot on the switch*/
+
+.w329_swtich li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 6px;
+    background-color: #3e3e3e;
+    margin-right: 5px;
+}
+
+.w329_swtich li:hover {
+    cursor: pointer;
+    background-color: #fff;
+}
+
+
+/*current picture button*/
+
+.w329_swtich .w329_swtich_current {
+    background-color: #fff;
+}
+
+
+/*the third column picture link on the household*/
+
+.w219 {
+    float: left;
+    width: 219px;
+    overflow: hidden;
+    border-right: 1px solid #ccc;
+}
+
+.w219 img,
+.w220 img {
+    border-bottom: 1px solid #ccc;
+}
+
+
+/*the fouth and fifth column picture link on the household*/
+
+.w220 {
+    float: left;
+    overflow: hidden;
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+
+
+/*the float box fixed on the left of the screen*/
+
+.fixed_tool {
+    position: fixed;
+    top: 180px;
+    left: 50%;
+    margin-left: -676px;
+    text-align: center;
+    line-height: 33px;
+}
+
+.fixed_tool ul a {
+    display: block;
+    width: 66px;
+    height: 33px;
+    background-color: #fff;
+    border-bottom: 1px dotted #ccc;
+}
+
+.fixed_tool .fixed_tool_title {
+    background-color: #c81623;
+    color: #fff;
+    border-bottom: none;
+}
